@@ -1,4 +1,10 @@
-import { LinkedinIcon } from "./Icons";
+import {
+  DribbbleIcon,
+  GithubIcon,
+  LinkedinIcon,
+  SunIcon,
+  TwitterIcon,
+} from "./Icons";
 import Logo from "./Logo";
 import Link from "next/link";
 
@@ -19,13 +25,23 @@ const Header = () => {
         <Link href="/contact" className="mr-2">
           Contact
         </Link>
-        <button>T</button>
+        <button>
+          <SunIcon />
+        </button>
       </nav>
       <div>
-        <a href="http://example.com" className="inline-block w-6 h-6 mr-4"><LinkedinIcon/></a>
-        <a href="http://example.com">Twitter</a>
-        <a href="http://example.com">Github</a>
-        <a href="http://example.com">Dribble</a>
+        <a href="http://example.com" className="inline-block w-6 h-6 mr-4">
+          <LinkedinIcon className="hover:scale-125 transition-all ease duration-200 " />
+        </a>
+        <a href="http://example.com" className="inline-block w-6 h-6 mr-4">
+          <TwitterIcon className="hover:scale-125 transition-all ease duration-200 " />
+        </a>
+        <a href="http://example.com" className="inline-block w-6 h-6 mr-4">
+          <GithubIcon className="hover:scale-125 transition-all ease duration-200 " />
+        </a>
+        <a href="http://example.com" className="inline-block w-6 h-6 mr-4">
+          <DribbbleIcon className="hover:scale-125 transition-all ease duration-200 " />
+        </a>
       </div>
     </header>
   );
