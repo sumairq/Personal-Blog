@@ -4,7 +4,7 @@ import Link from "next/link";
 import { format } from "date-fns";
 
 const BlogLayoutThree = ({blog}) => {
-  console.log('blogurl',blog.url)
+  // console.log('blogurl',blog.url)
     return (
         <div className="group flex flex-col items-center text-dark">
           <Link

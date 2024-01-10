@@ -3,6 +3,7 @@ import Link from "next/link";
 import { cx } from "@/src/utils";
 
 const Tag = ({ link = "#", name, ...props }) => {
+  console.log("link", link, name)
   return (
     <Link
       href={link}
