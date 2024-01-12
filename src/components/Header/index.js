@@ -1,3 +1,5 @@
+"use client"
+
 import siteMetadata from "@/src/utils/siteMetaData";
 import {
   DribbbleIcon,
@@ -8,8 +10,11 @@ import {
 } from "./Icons";
 import Logo from "./Logo";
 import Link from "next/link";
+import { useThemeSwitch } from "../Hooks/useThemeSwitch";
 
 const Header = () => {
+const [mode, setMode] = useThemeSwitch();
+
   return (
     <header className="w-full p-4 px-10 flex items-center justify-between">
       <Logo />
@@ -26,7 +31,10 @@ const Header = () => {
         <Link href="/contact" className="mx-2">
           Contact
         </Link>
-        <button>
+        <button onClick={()=> {
+          setMode(mode === "light" ? "dark" : "light")
+          console.log(mode);
+          }}>
           <SunIcon />
         </button>
       </nav>
