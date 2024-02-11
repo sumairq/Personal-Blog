@@ -126,6 +126,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **Add CMS**
+- [ ] **Implement framer-motion animations**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
