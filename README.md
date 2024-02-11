@@ -8,8 +8,6 @@
 Sumair's Personal Blog
 </div>
 
-<!-- TABLE OF CONTENTS -->
-
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
@@ -23,8 +21,6 @@ Sumair's Personal Blog
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [📝 License](#license)
-
-<!-- PROJECT DESCRIPTION -->
 
 # 📖 Personal Blog <a name="about-project"></a>
 
