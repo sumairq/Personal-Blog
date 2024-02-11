@@ -5,7 +5,7 @@
   <!-- <img src="murple_logo.png" alt="logo" width="140"  height="auto" /> -->
   <!-- <br/> -->
 
-Sumair's Personal Blog
+<h1>Sumair's Personal Blog<h1>
 </div>
 
 # 📗 Table of Contents
@@ -129,8 +129,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- CONTRIBUTING -->
-
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
@@ -144,8 +142,6 @@ Feel free to check the [issues page](../../issues/).
 If you like this project please give it a star.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
