@@ -30,7 +30,7 @@ This is my personal blog that's mainly used to publish my thoughts and learnings
 
 ### Tech Stack <a name="tech-stack"></a>
 
-, tailwind css,  contentlayer.   
+Next.js , tailwind css,  contentlayer.   
 
 <details>
   <summary>Client</summary>
