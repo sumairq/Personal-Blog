@@ -110,7 +110,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 👥 Authors <a name="authors"></a>
+## 👥 Author <a name="authors"></a>
 
 👤 **Sumair Qaisar**
 
