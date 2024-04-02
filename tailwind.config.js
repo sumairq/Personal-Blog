@@ -18,9 +18,13 @@ module.exports = {
       fontFamily: {
         mr: ["var(--font-mr)"],
         in: ["var(--font-in)"],
+        ds: ["var(--font-ds)"]
       },
       animation:{
         roll: "roll 24s linear infinite"
+      },
+      fontSize:{
+      logo: "0.75rem"
       },
       keyframes:{
         roll:{
