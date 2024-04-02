@@ -1,6 +1,6 @@
 import { cx } from '../utils';
 import './globals.css';
-import { Inter, Manrope } from 'next/font/google';
+import { Inter, Manrope, Dancing_Script } from 'next/font/google';
 import Header from '@/src/components/Header';
 import Footer from '../components/Footer';
 import siteMetadata from '../utils/siteMetaData';
@@ -12,6 +12,12 @@ const inter = Inter({
   display: 'swap',
   variable: '--font-in',
 });
+
+const dance = Dancing_Script({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-ds'
+})
 
 const manrope = Manrope({
   subsets: ['latin'],
@@ -62,6 +68,7 @@ export default function RootLayout({ children }) {
         className={cx(
           inter.variable,
           manrope.variable,
+          dance.variable,
           'font-mr bg-light dark:bg-dark'
         )}
       >
