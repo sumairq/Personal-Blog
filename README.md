@@ -1,9 +1,9 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <!-- <img src="murple_logo.png" alt="logo" width="140"  height="auto" /> -->
-  <!-- <br/> -->
+
+![blog-post](https://github.com/sumairq/Personal-Blog/assets/60618877/f35f8f38-a071-4f74-9a12-4f50efe700a4)
+
 
 <h1>Sumair's Personal Blog<h1>
 </div>
